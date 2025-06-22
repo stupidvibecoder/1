@@ -1,14 +1,15 @@
 # Clone your new repository
-git clone https://github.com/yourusername/econdashboard.git
+git clone https://github.com/YOUR_USERNAME/econdashboard.git
 cd econdashboard
 
-# Create React app structure
+# Create React app
 npx create-react-app .
-# (This will create the React app in the current directory)
+# (The dot means "in current directory")
 
-# Install the additional packages we need
-npm install recharts lucide-react axios date-fns
-npm install -D tailwindcss postcss autoprefixer gh-pages
+# Install the packages we need
+npm install recharts lucide-react
+npm install -D gh-pages
 
-# Initialize Tailwind CSS
+# Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
